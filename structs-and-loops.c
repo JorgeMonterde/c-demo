@@ -37,7 +37,11 @@ int main()
         index++;
     } while (index <= 6);
 
-    
+    int exampleArray[] = {24, 65, 98, 78, 16, 43, 52};
+    for (int i = 1; i <= 6; i++) {
+        printf("%d\n", exampleArray[i]);
+    }
+
 
     return 0;
 }
